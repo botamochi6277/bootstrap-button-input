@@ -1,0 +1,280 @@
+/*!
+ * style sheet for input button under bootstrap
+ * include bootstrap.css or bootstrap.min.css before this file
+ * Copyright 2017 botamochi6277
+ * Licensed under MIT 
+ */
+
+.btn-input-primary {
+  color: #aaa;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.btn-input-primary:hover {
+  color: #fff;
+}
+
+.btn-input-primary:focus,
+.btn-input-primary.focus {
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+.btn-input-primary.disabled,
+.btn-input-primary:disabled {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-input-primary:active,
+.btn-input-primary.active,
+.show > .btn-input-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #007bff;
+  background-image: none;
+  border-color: #007bff;
+}
+
+.btn-input-primary.active:hover{
+  color: #aaa;
+}
+
+.btn-input-secondary {
+  color: #aaa;
+  background-color: #727b84;
+  border-color: #6c757d;
+}
+
+.btn-input-secondary:hover {
+  color: #fff;
+  background-color: #727b84;
+  border-color: #6c757d;
+}
+
+.btn-input-secondary:focus,
+.btn-input-secondary.focus {
+  box-shadow: 0 0 0 3px rgba(134, 142, 150, 0.5);
+}
+
+.btn-input-secondary.disabled,
+.btn-input-secondary:disabled {
+  background-color: #868e96;
+  border-color: #868e96;
+}
+
+.btn-input-secondary:active,
+.btn-input-secondary.active,
+.show > .btn-input-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #868e96;
+  background-image: none;
+  border-color: #868e96;
+}
+
+.btn-input-secondary.active:hover{
+  color: #aaa;
+}
+
+.btn-input-success {
+  color: #aaa;
+  background-color: #218838;
+  border-color: #28a745;
+}
+
+.btn-input-success:hover {
+  color: #fff;
+}
+
+.btn-input-success:focus,
+.btn-input-success.focus {
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+}
+
+.btn-input-success.disabled,
+.btn-input-success:disabled {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-input-success:active,
+.btn-input-success.active,
+.show > .btn-input-success.dropdown-toggle {
+  color: #fff;
+  background-color: #28a745;
+  background-image: none;
+  border-color: #28a745;
+}
+
+.btn-input-success.active:hover{
+  color: #aaa;
+}
+
+.btn-input-info {
+  color: #aaa;
+  background-color: #138496;
+  border-color: #117a8b;
+}
+
+.btn-input-info:hover {
+  color: #fff;
+}
+
+.btn-input-info:focus,
+.btn-input-info.focus {
+  box-shadow: 0 0 0 3px rgba(23, 162, 184, 0.5);
+}
+
+.btn-input-info.disabled,
+.btn-input-info:disabled {
+  background-color: #17a2b8;
+  border-color: #17a2b8;
+}
+
+.btn-input-info:active,
+.btn-input-info.active,
+.show > .btn-input-info.dropdown-toggle {
+  color: #fff;
+  background-color: #17a2b8;
+  background-image: none;
+  border-color: #17a2b8;
+}
+
+.btn-input-info.active:hover{
+  color: #aaa;
+}
+
+.btn-input-warning {
+  color: #777;
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.btn-input-warning:hover {
+  color: #111;
+}
+
+.btn-input-warning:focus,
+.btn-input-warning.focus {
+  box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+}
+
+.btn-input-warning.disabled,
+.btn-input-warning:disabled {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-input-warning:active,
+.btn-input-warning.active,
+.show > .btn-input-warning.dropdown-toggle {
+  color: #111;
+  background-color: #ffc107;
+  background-image: none;
+  border-color: #ffc107;
+}
+
+.btn-input-warning.active:hover{
+  color: #aaa;
+}
+
+.btn-input-danger {
+  color: #aaa;
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+.btn-input-danger:hover {
+  color: #fff;
+}
+
+.btn-input-danger:focus,
+.btn-input-danger.focus {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+}
+
+.btn-input-danger.disabled,
+.btn-input-danger:disabled {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-input-danger:active,
+.btn-input-danger.active,
+.show > .btn-input-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #dc3545;
+  background-image: none;
+  border-color: #dc3545;
+}
+
+.btn-input-danger.active:hover{
+  color: #aaa;
+}
+
+.btn-input-light {
+  color: #aaa;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+}
+
+.btn-input-light:hover {
+  color: #111;
+}
+
+.btn-input-light:focus,
+.btn-input-light.focus {
+  box-shadow: 0 0 0 3px rgba(248, 249, 250, 0.5);
+}
+
+.btn-input-light.disabled,
+.btn-input-light:disabled {
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-input-light:active,
+.btn-input-light.active,
+.show > .btn-input-light.dropdown-toggle {
+  color: #111;
+  background-color: #f8f9fa;
+  background-image: none;
+  border-color: #f8f9fa;
+}
+
+.btn-input-light.active:hover{
+  color: #aaa;
+}
+
+.btn-input-dark {
+  color: #aaa;
+  background-color: #23272b;
+  border-color: #1d2124;
+}
+
+.btn-input-dark:hover {
+  color: #fff;
+}
+
+.btn-input-dark:focus,
+.btn-input-dark.focus {
+  box-shadow: 0 0 0 3px rgba(52, 58, 64, 0.5);
+}
+
+.btn-input-dark.disabled,
+.btn-input-dark:disabled {
+  background-color: #343a40;
+  border-color: #343a40;
+}
+
+.btn-input-dark:active,
+.btn-input-dark.active,
+.show > .btn-input-dark.dropdown-toggle {
+  color: #fff;
+  background-color: #343a40;
+  background-image: none;
+  border-color: #343a40;
+}
+
+.btn-input-dark.active:hover{
+  color: #aaa;
+}
